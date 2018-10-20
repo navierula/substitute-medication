@@ -17,7 +17,7 @@ def find_substitutes(pre, med):
 
 				for item in med:
 
-					# use rxcui value and genric value to find substitute for branded medication
+					# use rxcui value and generic value to find substitute for branded medication
 					if m["rxcui"] == item["rxcui"] and item["generic"] == True:
 
 						# perform update
@@ -44,12 +44,3 @@ if __name__ == '__main__':
 	# write to file
 	with open('prescription_updates.json', 'w') as saved:
 		json.dump(results, saved, indent = 4)
-
-
-
-
-		
-
-
-
-
