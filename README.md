@@ -5,6 +5,6 @@ This program outputs a file specifying appropriate medical substitutions that ca
 
 ---
 
->> Comments: I wrote a fairly simple function to complete the problem, and as instructed, spent a little less than an hour doing so. In actuality, a database structure might be necessary to avoid over-iteration so results can be returned via a simply query. In this case, looping over the apis to obtain the results were necessary because comparisons had to be made at each step. In the end, these results are stored in a hashmap structure so accessing elements does occur in constant time.
+Comments: I wrote a fairly simple function to complete the problem, and as instructed, spent a little less than an hour doing so. In actuality, a database structure might be necessary to avoid over-iteration so results can be returned via a simply query. In this case, looping over the apis to obtain the results were necessary because comparisons had to be made at each step. In the end, these results are stored in a hashmap structure so accessing elements does occur in constant time.
 
 
